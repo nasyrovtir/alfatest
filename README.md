@@ -40,9 +40,9 @@ java -jar alfatest-0.0.1-SNAPSHOT.jar
 ---
 **Список кодов ответа сервера**
 
-200 OK<br>
-400 Bad Request - не найден код интересующей валюты<br>
-500 Internal Server Error - внутренняя ошибка сервера<br>
+- 200 OK<br>
+- 400 Bad Request - не найден код интересующей валюты<br>
+- 500 Internal Server Error - внутренняя ошибка сервера<br>
 ---
 **Разработчик**
 

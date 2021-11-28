@@ -1,4 +1,4 @@
-###Описание
+**Описание**
 
 Сервис возвращает тематическую GIF-картинку в зависимости от изменения курса интересующей валюты относительно USD.<br>
 Взаимодействие осуществляется посредством GET запросов на
@@ -14,7 +14,7 @@
 - Spring Boot
 - Docker
 ---
-###Инструкция по запуску
+**Инструкция по запуску**
 
 - Java (JDK) 11+.
 - Gradle
@@ -27,15 +27,15 @@ git clone https://github.com/nasyrovtir/alfatest.git alfatest
 cd alfatest
 gradle build
 ```
-**Для запуска программы в консоли выполнить команды:**
-```
-cd build/libs
-java -jar alfatest-0.0.1-SNAPSHOT.jar
-```
 **Для запуска программы в docker контейнере выполнить команду:**
 ```
 docker build -t alfatest_image .
 docker run --rm --name alfatest_container -p 8080:8080 alfatest_image
+```
+**Для запуска программы в консоли выполнить команды:**
+```
+cd build/libs
+java -jar alfatest-0.0.1-SNAPSHOT.jar
 ```
 ---
 **Список кодов ответа сервера**

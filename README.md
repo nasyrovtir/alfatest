@@ -13,6 +13,8 @@
 - Git
 - Spring Boot
 - Docker
+- Junit
+- Mockito
 ---
 **Инструкция по запуску**
 
